@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Наши котики</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="slider-container">
+    <div class="tabs">
+        <button class="tab active" data-index="0">БОБТЕЙЛ</button>
+        <button class="tab" data-index="1">БРИТАНЕЦ</button>
+        <button class="tab" data-index="2">ТУРЕЦКАЯ АНГОРА</button>
+    </div>
+
+    <div class="content">
+        <div class="text-info">
+            <h2>НАШИ КОТИКИ</h2>
+            <div class="line"></div>
+            <p class="description">
+                В нашем питомнике живут удивительные создания. Каждый из них — 
+                это уникальный характер, пушистый хвост и море любви. 
+                Мы заботимся о них и следим за их здоровьем.
+            </p>
+            
+            <div class="details">
+                <div class="detail-item">
+                    <h3>ПОРОДА:</h3>
+                    <p class="breed">Бобтейл<br>Короткохвостый</p>
+                </div>
+                <div class="detail-item">
+                    <h3>ВЕС:</h3>
+                    <p class="weight">4.5 кг</p>
+                </div>
+                <div class="detail-item">
+                    <h3>ВОЗРАСТ:</h3>
+                    <p class="age">2 года</p>
+                </div>
+                <div class="detail-item">
+                    <h3>ЦВЕТ:</h3>
+                    <p class="color">Серый полосатый</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="image-container">
+            <img class="slider-image" src="images/bobtail-short-tailed.png" alt="Фото котика">
+        </div>
+    </div>
+
+    <div class="controls">
+        <button class="arrow prev" aria-label="Предыдущий слайд">←</button>
+        <div class="dots">
+            <span class="dot active" data-index="0"></span>
+            <span class="dot" data-index="1"></span>
+            <span class="dot" data-index="2"></span>
+        </div>
+        <button class="arrow next" aria-label="Следующий слайд">→</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
